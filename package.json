@@ -1,0 +1,36 @@
+{
+	"name": "handler-alerts",
+	"version": "1.0.1",
+	"description": "Cross platform CLI Alerts with colors. Works on macOS, Linux, and Windows. Alerts: `success`, `info`, `warning`, `error`.",
+	"main": "index.js",
+	"author": {
+		"name": "Crhistian Caraballo"
+	},
+	"files": [
+		"index.js"
+	],
+	"scripts": {
+		"test": "node test.js",
+		"format": "prettier --write \"./**/*.{json,js}\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Crhis35/Handler-alerts.git"
+	},
+	"keywords": [
+		"handler-alerts",
+		"Crhistian Caraballo"
+	],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Crhis35/Handler-alerts/issues"
+	},
+	"homepage": "https://github.com/Crhis35/Handler-alerts#readme",
+	"devDependencies": {
+		"prettier": "^2.2.1"
+	},
+	"dependencies": {
+		"chalk": "^4.1.0",
+		"log-symbols": "^4.0.0"
+	}
+}
